@@ -1,0 +1,34 @@
+*{
+    border:border-box;
+    margin:0;
+    padding:0;
+    background-color: lightgray;
+}
+
+li,a{
+    font-size:15px;
+    font-weight:500;
+    font-family: Arial, Helvetica, sans-serif;
+    color:lightcoral;
+    display:inline-block;
+    margin:10px;
+    background-color: lightblue;
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: lightblue;
+}
+
+.logo{
+    height:80px;
+    width:80px;
+    margin-left:10px;
+}
+
+.cart{
+    height:80px;
+    width:80px;
+}
